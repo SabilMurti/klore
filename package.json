@@ -1,0 +1,29 @@
+{
+  "name": "klore-cli",
+  "version": "1.0.0",
+  "description": "Klore CLI - AI-powered project template engine",
+  "main": "dist/cli/index.js",
+  "bin": {
+    "klore": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx cli/index.ts",
+    "cli": "tsx cli/index.ts"
+  },
+  "keywords": ["cli", "template", "ai", "generator"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
